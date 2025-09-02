@@ -2,17 +2,11 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import heroImage from '@/assets/hero-kitchen.jpg';
-
 export const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Современная кухня с мебелью на заказ"
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="Современная кухня с мебелью на заказ" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
@@ -25,9 +19,7 @@ export const Hero = () => {
         </ScrollReveal>
         
         <ScrollReveal className="animate-fade-in-up" delay={400}>
-          <p className="text-xl md:text-2xl mb-4 font-medium">
-            с Михаилом Сергиенко
-          </p>
+          <p className="text-xl md:text-2xl mb-4 font-medium">с Михаилом Скрипником</p>
         </ScrollReveal>
 
         <ScrollReveal className="animate-fade-in-up" delay={600}>
@@ -49,6 +41,5 @@ export const Hero = () => {
           <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
