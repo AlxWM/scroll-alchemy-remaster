@@ -13,7 +13,7 @@ export const AboutSection = () => {
               <div className="absolute -inset-4 hero-gradient rounded-3xl opacity-20"></div>
               <img
                 src={designerPortrait}
-                alt="Михаил Сергиенко - дизайнер мебели"
+                alt="Михаил Скрипник - дизайнер мебели"
                 className="relative w-full h-96 object-cover rounded-2xl shadow-elegant"
               />
             </div>
@@ -22,7 +22,7 @@ export const AboutSection = () => {
           <ScrollReveal delay={400}>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                О МИХАИЛЕ СЕРГИЕНКО
+                О МИХАИЛЕ СКРИПНИКЕ
               </h2>
               
               <div className="space-y-6 text-lg text-muted-foreground mb-8">

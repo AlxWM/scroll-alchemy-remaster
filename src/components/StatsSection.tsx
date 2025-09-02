@@ -29,7 +29,7 @@ export const StatsSection = () => {
               
               <div>
                 <p className="text-lg leading-relaxed">
-                  ЛИЕТ СОЗДАНИЕ КРАСИВЫХ ИНТЕРЬЕРОВ,
+                  НЕ ЛИШЬ СОЗДАНИЕ КРАСИВЫХ ИНТЕРЬЕРОВ,
                   НО ГРАМОТНОЕ ПРОЕКТИРОВАНИЕ ПОД ЗАКАЗ
                 </p>
               </div>
